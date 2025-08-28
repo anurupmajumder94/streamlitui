@@ -1,0 +1,56 @@
+.block-container {
+  padding: 2rem 1rem 2rem 1rem;
+}
+.stForm {
+  width: 100%;
+}
+.stAppHeader {
+  display: none;
+}
+.stMainBlockContainer {
+  padding-top: 0;
+}
+.chat-container {
+  padding: 10px;
+}
+.user-bubble {
+  background-color: #dcf8c6;
+  padding: 10px 15px;
+  border-radius: 20px;
+  margin: 5px;
+  max-width: 70%;
+  float: right;
+  clear: both;
+}
+.bot-bubble {
+  background-color: #f1f0f0;
+  padding: 10px 15px;
+  border-radius: 20px;
+  margin: 5px;
+  max-width: 70%;
+  float: left;
+  clear: both;
+}
+
+.navbar {
+  background-color: #663399;
+  margin-bottom: 2rem;
+  padding: 1rem 2rem;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400; /* Changed from 600 to 400 for less bold */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .brand {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar .brand:hover {
+  text-decoration: underline;
+}
